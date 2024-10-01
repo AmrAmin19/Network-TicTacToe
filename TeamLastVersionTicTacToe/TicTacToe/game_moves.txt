@@ -1,0 +1,8 @@
+Player: (0, 2)
+Computer: (1, 1)
+Player: (2, 1)
+Computer: (1, 0)
+Player: (1, 2)
+Computer: (2, 2)
+Player: (0, 1)
+Computer: (0, 0)

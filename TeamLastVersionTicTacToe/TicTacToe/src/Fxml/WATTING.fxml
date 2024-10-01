@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#04b1b8" layoutX="206.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIC">
+         <font>
+            <Font name="Agency FB Bold" size="45.0" />
+         </font>
+      </Text>
+      <Text fill="#04b1b8" layoutX="330.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOE">
+         <font>
+            <Font name="Agency FB Bold" size="45.0" />
+         </font>
+      </Text>
+      <Text fill="#fd6801" layoutX="264.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TAC">
+         <font>
+            <Font name="Agency FB Bold" size="45.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="AncorPane2" layoutX="60.0" layoutY="260.0" prefHeight="120.0" prefWidth="480.0">
+         <children>
+            <Text fill="#f4a24c" layoutX="14.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLLAYER TWO">
+               <font>
+                  <Font name="Agency FB Bold" size="35.0" />
+               </font>
+            </Text>
+            <Text layoutX="382.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="score">
+               <font>
+                  <Font name="Agency FB Bold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="AncorPane1" layoutX="60.0" layoutY="83.0" prefHeight="120.0" prefWidth="480.0">
+         <children>
+            <Text fill="#f4a24c" layoutX="14.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER ONE">
+               <font>
+                  <Font name="Agency FB Bold" size="35.0" />
+               </font>
+            </Text>
+            <Text layoutX="385.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="score">
+               <font>
+                  <Font name="Agency FB Bold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="#fd6801" layoutX="64.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WAITING FOR PLAYER ONE ...">
+         <font>
+            <Font name="Agency FB Bold" size="35.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="ImageView" fitHeight="60.0" fitWidth="71.0" layoutX="25.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@arrow.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
